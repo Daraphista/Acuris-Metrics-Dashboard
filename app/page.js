@@ -57,6 +57,7 @@ export default function LandingPage() {
         {/* Hero Section */}
         <div className="mb-16 flex flex-col items-center">
           <motion.div
+            className="flex flex-col"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -64,7 +65,7 @@ export default function LandingPage() {
             <h1 className="text-4xl md:text-5xl font-semibold text-center text-brand-text mb-4 tracking-tight">
               Infrastructure for Modern Medicine.
             </h1>
-            <p className="text-lg text-brand-muted max-w-2xl leading-relaxed text-center">
+            <p className="text-lg text-brand-muted leading-relaxed text-center">
               ACURIS Med provides reliable, clinical-grade transcription services designed to 
               minimize administrative friction and maximize patient-facing time.
             </p>
